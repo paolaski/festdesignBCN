@@ -49,19 +49,26 @@ h3{
 
 .contenedor-texto{
   padding: 2%;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .contenedor-texto strong{
     color: #DDD000;
     font-family: 'madetommy-bold' !important;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 a.nav-link:link{
   font-family: 'madetommy-bold' !important;
-  font-size: 1.5em;
-  color: #FFFFFF;
+  font-size: 1.2em;
+  color: #DDD000;
+}
+
+a.enlace-festival:link
+,a.enlace-festival:visited{
+  font-family: 'madetommy-bold' !important;
+  font-size: 1.2em;
+    color: #DDD000;
 }
 
 a.nav-link:active,
@@ -73,6 +80,11 @@ a.nav-link:hover{
 
 a:visited{
   color: #FFFFFF;
+}
+
+ul.nav-bar li.nav-item a{
+  display: flex;
+  justify-content: space-between;
 }
 
 footer{
