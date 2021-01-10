@@ -37,18 +37,30 @@ padding: 2%;
 width: 100%;
 }
 
+.segundaimagen{
+background: url('.././img/photo6.png');
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: bottom;
+background-size: cover;
+padding: 2%;
+width: 100%;
+}
+
 h1{
   letter-spacing: 0.2em;
   font-size: 50px !important;
   font-family: 'mademirage' !important;
+  color: #1c1c1c;
 }
 
 h3{
   font-family: 'madetommy-bold' !important;
+    color: #1c1c1c;
 }
 
 .contenedor-texto{
-  padding: 2%;
+  padding: 1%;
   font-size: 1.2em;
 }
 
