@@ -1,3 +1,12 @@
+@media screen and (max-width: 1490px)  {
+  .border-rtb{
+    border-right: none !important;
+    margin-right: auto;
+    border-bottom: 5px solid #DDD000;
+    margin-bottom:2%;
+  }
+}
+
 @font-face {
   font-family: 'mademirage';
   src: url(".././font/MADE Mirage Black PERSONAL USE.otf");
@@ -99,8 +108,17 @@ ul.nav-bar li.nav-item a{
   justify-content: space-between;
 }
 
+.border-rtb{
+  border-right: 5px solid #DDD000;
+  margin-right:2%;
+}
+
 p.cursor-pointer{
   cursor:pointer;
+}
+
+p.tampeq{
+  font-size:0.8em;
 }
 
 footer{
