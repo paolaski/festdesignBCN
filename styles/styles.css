@@ -99,6 +99,10 @@ ul.nav-bar li.nav-item a{
   justify-content: space-between;
 }
 
+p.cursor-pointer{
+  cursor:pointer;
+}
+
 footer{
   margin-top: 2%;
 }
