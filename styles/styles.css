@@ -61,8 +61,16 @@ h3{
 a.nav-link:link{
   font-family: 'madetommy-bold' !important;
   font-size: 1.5em;
+  color: #FFFFFF;
 }
 
-a.nav-link:active{
-  color: #DDD000; 
+a.nav-link:active,
+a.activo:link,
+a.activo:visited,
+a.nav-link:hover{
+  color: #DDD000;
+}
+
+a:visited{
+  color: #FFFFFF;
 }
