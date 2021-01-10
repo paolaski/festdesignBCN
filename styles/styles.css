@@ -1,3 +1,36 @@
+@font-face {
+  font-family: 'mademirage';
+  src: url(".././font/MADE Mirage Black PERSONAL USE.otf");
+}
+
+@font-face {
+  font-family: 'madetommy-regular';
+  src: url(".././font/MADE Tommy Soft Regular PERSONAL USE.otf");
+}
+
+@font-face {
+  font-family: 'madetommy-bold';
+  src: url(".././font/MADE Tommy Soft Bold PERSONAL USE.otf");
+}
+
 body{
   background: url('.././img/background.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: auto;
+  color: #FFFFFF;
+  font-family: 'madetommy-regular' !important;
+}
+
+.primeraimagen{
+background: url('.././img/photo3.png');
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+height: 150px;
+width: 100%;
+}
+
+h1{
+  font-family: 'mademirage' !important;
 }
